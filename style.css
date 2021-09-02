@@ -2,9 +2,6 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
 }
-td.red >input{
-    background-color:#e2ebf3 !important;
-  }
 td{
     height: 60px;
     font-size: 25px;
