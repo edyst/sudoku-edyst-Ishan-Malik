@@ -25,7 +25,7 @@ $(document).on('click', 'td', function() {
     var n = 9;
     that.closest('table').find('td').removeClass('red');
     for (m=0;m<=n;m++) {
-      that.closest('table').find('tr').eq(m).find('td').eq(i).addClass('red');
+      that.closest('table').find('tr').eq(m).find('td').eq(i).find("input").css('background-color', '#e2ebf3');
     }
   });
 
